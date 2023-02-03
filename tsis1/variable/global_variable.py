@@ -1,10 +1,10 @@
 x = "awesome"
 
-def myfunc():
+def myfunc():      #otkryli function
   global x
   x = "fantastic"
 
-myfunc()
+myfunc()            # zakryli function
 
 print("Python is " + x)
 
